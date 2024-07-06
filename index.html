@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <img src="logo.png" alt="Game Logo" id="game-logo">
+    <h1>Rock Paper Scissors</h1>
+    <div class="score-board">
+      <div id="user-label" class="badge">User</div>
+      <div id="computer-label" class="badge">Comp</div>
+      <div id="user-score">0</div>
+      <div id="computer-score">0</div>
+    </div>
+    <div class="versus">
+      <div class="choice" id="user-choice">
+        <img src="placeholder.png" alt="User Choice">
+      </div>
+      <div class="vs">VS</div>
+      <div class="choice" id="computer-choice">
+        <img src="placeholder.png" alt="Computer Choice">
+      </div>
+    </div>
+    <div class="result">
+      <p>Make your move!</p>
+    </div>
+    <div class="choices">
+      <div class="choice" id="rock">
+        <img src="rock.png" alt="Rock">
+      </div>
+      <div class="choice" id="paper">
+        <img src="paper.png" alt="Paper">
+      </div>
+      <div class="choice" id="scissors">
+        <img src="scissors.png" alt="Scissors">
+      </div>
+    </div>
+    <audio id="win-sound" src="win.mp3"></audio>
+    <audio id="lose-sound" src="lose.mp3"></audio>
+    <audio id="draw-sound" src="draw.mp3"></audio>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
