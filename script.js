@@ -20,8 +20,8 @@ function getComputerChoice() {
 }
 
 function displayChoices(userChoice, computerChoice) {
-  userChoiceDisplay.src = `${userChoice}.png`;
-  computerChoiceDisplay.src = `${computerChoice}.png`;
+  userChoiceDisplay.src = `${userChoice}.svg`;
+  computerChoiceDisplay.src = `${computerChoice}.svg`;
 }
 
 function win(userChoice, computerChoice) {
